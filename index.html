@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel='stylesheet' type='text/css' href='main.css'>
+</head>
+<body>
+	<div id="container">
+		<header>
+			My Shopping List
+		</header>
+			<label>Add New Item Here: </label>
+			<input id='add' type="text">
+			<input class= "formbutn" type="submit" value="Remove Checked Items" id="submit">
+			
+			<ul id="itemscontainer">
+				<li id="base" class="hidden">
+					<input class="check" type="checkbox">
+					<span class="item">Item</span>
+				</li>
+				<li id="base" class="hidden">
+					<input class="check" type="checkbox">
+					<span class="item">Item 1</span>
+				</li>
+				<li id="base" class="hidden">
+					<input class="check" type="checkbox">
+					<span class="item">Item 2</span>
+				</li>
+			</ul>
+	</div>
+	<!-- scripts for the project -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="application.js"></script>
+</body>	
+</html>
